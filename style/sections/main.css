@@ -4,6 +4,10 @@
     padding-bottom: 193px;
 }
 
+.main-content {
+    margin-left: 64px;
+}
+
 .main h1 {
     font-family: var(--ExtraBoldFont);
     color: var(--titlelight);
