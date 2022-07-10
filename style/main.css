@@ -2,6 +2,7 @@
 @import url(./fonts/fonts.css) all;
 @import url(./constants/constants.css) all;
 @import url(./sections/header.css) all;
+@import url(./sections/main.css) all;
 
 .container {
     width: 95%;
@@ -11,4 +12,15 @@
 .logo {
     width: 107px;
     height: 28px;
+}
+
+.btn {
+    width: 223px;
+    text-align: center;
+    padding: 13px 20px;
+    box-sizing: border-box;
+    border: 1px solid #77C8D0;
+    border-radius: 20.5px;
+    color: #FFFFFF;
+    cursor: pointer;
 }

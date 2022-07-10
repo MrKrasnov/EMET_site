@@ -1,0 +1,52 @@
+.main {
+    background: var(--bgColor);
+    padding-top: 112px;
+    padding-bottom: 193px;
+}
+
+.main h1 {
+    font-family: var(--ExtraBoldFont);
+    color: var(--titlelight);
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+.main h3 {
+    font-family: var(--boldFont);
+    color: var(--beforeTitleColor);
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: lowercase;
+    margin-bottom: 40px;
+}
+
+.main .btn {
+    background: var(--bgColor);
+}
+
+.main .btn:hover {
+    background: var(--activeColor);
+}
+
+.main-param {
+    font-family: var(--specialFont);
+    font-size: 32px;
+    line-height: 37.38px;
+}
+
+.main-firstBg {
+    color: #F19537;
+    margin-left: 20%;
+}
+
+.main-secondtBg {
+    margin: 64px 0 19px 75%;
+    color: #96C05B;
+}
+
+.main-thirdBg {
+    margin-top: 107px;
+    margin-left: 50%;
+    color: #E25241;
+}
