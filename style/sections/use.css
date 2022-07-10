@@ -1,0 +1,135 @@
+.use {
+    padding: 100px 0;
+}
+
+.use h1 {
+    font-family: var(--boldFont);
+    color: var(--cardParamColor);
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 60px;
+}
+
+.use h2 {
+    margin-bottom: 15px;
+}
+
+.use-titleBlue {
+    color: var(--lightStaticColor);
+}
+
+.use-lightBlue {
+    color: var(--cardTitleColor);
+}
+
+.use-skills {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 70px;
+}
+
+.use-skills h2 {
+    font-family: var(--boldFont);
+    color: var(--cardParamColor);
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.use-skills p {
+    font-family: var(--regularFont);
+    color: var(--cardParamColor);
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.use-skills-icon {
+    position: relative;
+    background: var(--lightStaticColor);
+    border-radius: 7px;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 15px;
+}
+
+.use-skills-icon img {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 24px;
+    height: 24px;
+}
+
+/* draw smiles */
+
+.use-skills-icon .use-skills-icon-rentangle {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    width: 13.65px;
+    height: 13.19px;
+}
+
+.use-skills-icon .use-skills-icon-rentangle img {
+    width: 8.11px;
+    height: 5.81px;
+}
+
+.use-skills-icon .firstRentangle {
+    bottom: 25%;
+    left: 25%;
+}
+
+.use-skills-icon .secondtRentangle {
+    top: 25%;
+    right: 25%;
+}
+
+.use-skills-icon .firstRentangle img {
+    top: 30%;
+    left: 21%;
+}
+
+.use-skills-icon .secondtRentangle img {
+    top: 30%;
+    left: 25%;
+}
+
+/* draw marks */
+
+.use-skills-icon .use-skills-icon-littleRentangle {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    width: 10.02px;
+    height: 10.02px;
+}
+
+.use-skills-icon .littleRentangleFirst {
+    top: 25%;
+    left: 55%;
+}
+
+.use-skills-icon .littleRentangleSecond {
+    top: 25%;
+    left: 25%;
+}
+
+.use-skills-icon .littleRentangleThird {
+    bottom: 25%;
+    left: 25%;
+}
+
+.use-skills-icon .littleRentangleFourth {
+    bottom: 25%;
+    left: 55%;
+}
+
+.use-skills-icon .use-skills-icon-littleRentangle img {
+    top: 25%;
+    left: 20%;
+    width: 6.39px;
+    height: 5.76px;
+}
