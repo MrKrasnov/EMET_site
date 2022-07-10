@@ -2,11 +2,12 @@
     --specialFont: "ComforterBrush", cursive;
     --regularFont: "Gilroy-Regular", sans-serif;
     --boldFont: "Gilroy-Bold", sans-serif;
+    --ExtraBoldFont: 'Gilroy-Bold-extra', sans-serif;
     --lightFont: "Gilroy-Light", sans-serif;
     --titlelight: #fff;
     --titledark: #000;
     --activeColor: #77C8D0;
-    --spanColor: #6C6C6C;
+    --beforeTitleColor: #6C6C6C;
     --navColor: #6C6C6C;
     --lightStaticColor: #5A31F5;
     --bgColor: #212121;

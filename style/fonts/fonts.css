@@ -17,3 +17,8 @@
     font-family: "Gilroy-Regular";
     src: url(./gilroy/Gilroy-Regular.ttf) format("truetype");
 }
+
+@font-face {
+    font-family: "Gilroy-Bold-extra";
+    src: url(./gilroy/Gilroy-ExtraBold.ttf) format("truetype");
+}
