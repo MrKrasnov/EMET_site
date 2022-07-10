@@ -21,6 +21,10 @@
     box-sizing: border-box;
     border: 1px solid #77C8D0;
     border-radius: 20.5px;
+    font-family: var(--boldFont);
     color: #FFFFFF;
+    font-size: 12px;
+    line-height: 15px;
     cursor: pointer;
+    text-transform: uppercase;
 }

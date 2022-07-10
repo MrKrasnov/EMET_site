@@ -33,6 +33,7 @@
     margin-left: 54px;
     font-family: var(--boldFont);
     color: #FFFFFF;
+    font-size: 11px;
     line-height: 13px;
     text-transform: uppercase;
 }
