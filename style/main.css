@@ -4,6 +4,9 @@
 @import url(./sections/header.css) all;
 @import url(./sections/main.css) all;
 @import url(./sections/manual.css) all;
+@import url(./sections/audio.css) all;
+@import url(./sections/use.css) all;
+
 
 .container {
     width: 90%;
