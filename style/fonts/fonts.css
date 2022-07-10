@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "betina";
+    src: url(./betina/betina.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(./gilroy/Gilroy-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url(./gilroy/Gilroy-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url(./gilroy/Gilroy-Regular.ttf) format("truetype");
+}
