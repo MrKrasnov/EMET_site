@@ -3,6 +3,7 @@
 @import url(./constants/constants.css) all;
 @import url(./sections/header.css) all;
 @import url(./sections/main.css) all;
+@import url(./sections/manual.css) all;
 
 .container {
     width: 90%;
