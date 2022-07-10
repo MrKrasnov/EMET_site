@@ -1,3 +1,14 @@
 @import url(./reset/reset.css) all;
 @import url(./fonts/fonts.css) all;
 @import url(./constants/constants.css) all;
+@import url(./sections/header.css) all;
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 107px;
+    height: 28px;
+}
