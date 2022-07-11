@@ -6,7 +6,7 @@
 @import url(./sections/manual.css) all;
 @import url(./sections/audio.css) all;
 @import url(./sections/use.css) all;
-
+@import url(./sections/benefits.css) all;
 
 .container {
     width: 90%;
@@ -45,4 +45,12 @@
 .hint span {
     color: var(--lightStaticColor);
     font-size: 40px;
+}
+
+.hint_dark {
+    color: #FFFFFF;
+}
+
+.hint_dark span {
+    color: var(--cardTitleColor);
 }
