@@ -14,14 +14,6 @@
     margin-bottom: 15px;
 }
 
-.use-titleBlue {
-    color: var(--lightStaticColor);
-}
-
-.use-lightBlue {
-    color: var(--cardTitleColor);
-}
-
 .use-skills {
     width: 80%;
     margin: 0 auto;

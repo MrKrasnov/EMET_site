@@ -59,3 +59,11 @@
 .hint_dark span {
     color: var(--cardTitleColor);
 }
+
+.titleBlue {
+    color: var(--lightStaticColor);
+}
+
+.lightBlue {
+    color: var(--cardTitleColor);
+}
