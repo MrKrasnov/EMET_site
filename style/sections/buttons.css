@@ -1,0 +1,21 @@
+.buttons {
+    background: var(--bgColor);
+    padding: 112px 0;
+}
+
+.buttons .btn {
+    background: var(--bgColor);
+}
+
+.buttons_handler {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons .btn:first-child {
+    margin-right: 100px;
+}
+
+.buttons .btn:hover {
+    background: var(--activeColor);
+}
