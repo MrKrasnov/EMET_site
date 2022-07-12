@@ -1,0 +1,47 @@
+.answers {
+    padding-top: 100px;
+    padding-bottom: 163px;
+}
+
+.answers_cards {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.answers_cards_card {
+    background: var(--cardBgColor);
+    padding: 22px 0 76px 0;
+    border-radius: 7px;
+}
+
+.answers_cards_card h4 {
+    color: var(--cardTitleColor);
+    font-family: var(--boldFont);
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 22px;
+    margin-bottom: 76px;
+    border-bottom: 1px solid #fff;
+    padding-left: 41px;
+}
+
+.answers_cards_card h4:hover {
+    color: var(--lightStaticColor);
+}
+
+.answers_cards_active h4 {
+    color: var(--lightStaticColor);
+}
+
+.answers_cards_card p {
+    font-family: var(--regularFont);
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: lowercase;
+    color: var(--cardParamColor);
+    max-width: 80%;
+    margin-left: 41px;
+}
