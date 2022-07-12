@@ -55,6 +55,7 @@
     justify-content: center;
     text-align: center;
     overflow-wrap: break-word;
+    white-space: pre-wrap;
     font-family: var(--regularFont);
     font-size: 16px;
     line-height: 18px;
@@ -100,25 +101,25 @@
 }
 
 .benefits .benefits_list div:nth-child(1):after {
-    content: 'пам’ятає все, що було сказано у розмові та будує свої відповіді виходячи з отриманих даних';
+    content: 'пам’ятає все, що було \A сказано у розмові та \A будує свої відповіді \A виходячи з отриманих \A даних';
 }
 
 .benefits .benefits_list div:nth-child(2):after {
-    content: 'веде нелінійний діалог, відповідаючи на запитання клієнтів';
+    content: 'веде нелінійний діалог, \A відповідаючи на \A запитання клієнтів';
 }
 
 .benefits .benefits_list div:nth-child(3):after {
-    content: 'фіксує всю інформацію, отриману від клієнта';
+    content: 'фіксує всю інформацію, \A отриману від клієнта';
 }
 
 .benefits .benefits_list div:nth-child(4):after {
-    content: 'навчається при кожному дзвінку, з кожним разом стає ще розумнішим';
+    content: 'навчається при кожному \A дзвінку, з кожним разом \A стає ще розумнішим';
 }
 
 .benefits .benefits_list div:nth-child(5):after {
-    content: 'може повністю взяти на себе вхідні та вихідні дзвінки';
+    content: 'може повністю взяти на \A себе вхідні та вихідні \A дзвінки';
 }
 
 .benefits .benefits_list div:nth-child(6):after {
-    content: 'приймає та здійснює необмежену кількість дзвінків';
+    content: 'приймає та здійснює \A необмежену кількість \A дзвінків';
 }
