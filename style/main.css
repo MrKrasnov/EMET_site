@@ -8,6 +8,7 @@
 @import url(./sections/use.css) all;
 @import url(./sections/benefits.css) all;
 @import url(./sections/answers.css) all;
+@import url(./sections/software.css) all;
 
 .container {
     width: 90%;
