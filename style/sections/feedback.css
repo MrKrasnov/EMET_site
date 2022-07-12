@@ -1,0 +1,55 @@
+.feedback {
+    padding: 100px 0;
+}
+
+.feedback_handler {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.feedback_handler h3 {
+    width: 574px;
+    font-family: var(--boldFont);
+    font-size: 96px;
+    line-height: 116px;
+    color: var(--cardParamColor);
+}
+
+.feedback_handler form {
+    color: var(--cardParamColor);
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback_handler form input {
+    height: 44px;
+    margin-bottom: 41px;
+}
+
+.feedback_handler form textarea {
+    height: 88px;
+    width: 618px;
+    margin-bottom: 100px;
+}
+
+.feedback_handler form input,
+.feedback_handler form textarea {
+    font-size: 20px;
+    border: 1px solid;
+    border-color: #5A31F5 #77C8D0 #77C8D0 #5A31F5;
+    border-radius: 7px;
+}
+
+.feedback_handler_btn {
+    background: var(--lightStaticColor);
+    margin-left: -112px;
+}
+
+.feedback_handler form label {
+    font-family: var(--boldFont);
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--cardParamColor);
+    margin-bottom: 20px;
+}
