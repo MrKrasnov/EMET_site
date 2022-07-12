@@ -11,6 +11,7 @@
 @import url(./sections/software.css) all;
 @import url(./sections/buttons.css) all;
 @import url(./sections/feedback.css) all;
+@import url(./sections/footer.css) all;
 
 .container {
     width: 90%;
