@@ -3,12 +3,6 @@
     padding: 100px 0;
 }
 
-.audio audio {
-    background: #000;
-    width: 100%;
-    height: 38px;
-}
-
 .audio small {
     font-family: var(--boldFont);
     color: var(--beforeTitleColor);
@@ -22,4 +16,13 @@
     font-size: 48px;
     line-height: 58px;
     margin-bottom: 30px;
+}
+
+.audio audio {
+    width: 100%;
+    height: 38px;
+}
+
+.audio audio::-webkit-media-controls-enclosure {
+    background-color: grey;
 }
