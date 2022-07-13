@@ -53,3 +53,28 @@
     color: var(--cardParamColor);
     margin-bottom: 20px;
 }
+
+/* tablet version */
+
+@media(max-width: 1000px) {
+    .feedback_handler {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .feedback_handler h3 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .feedback_handler form input,
+    .feedback_handler form textarea {
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .feedback_handler_btn {
+        margin: 0 auto;
+    }
+}

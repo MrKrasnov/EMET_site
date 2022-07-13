@@ -84,3 +84,12 @@
 .benefits .benefits_list div:nth-child(6):after {
     content: 'приймає та здійснює \A необмежену кількість \A дзвінків';
 }
+
+
+/* tablet version */
+
+@media(max-width: 1000px) {
+    .benefits .benefits_list {
+        grid-template-columns: 1fr 1fr;
+    }
+}

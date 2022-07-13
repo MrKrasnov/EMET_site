@@ -67,3 +67,12 @@
 .software .software_list div:nth-child(4):after {
     content: 'з більшістю \A корпоративних систем';
 }
+
+/* tablet version */
+
+@media(max-width: 1000px) {
+    .software .software_list {
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+}

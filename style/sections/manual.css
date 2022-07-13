@@ -42,3 +42,11 @@
 .manual li:last-child {
     margin-bottom: 0px;
 }
+
+/* tablet version */
+
+@media(max-width: 1000px) {
+    .manual-img {
+        display: none;
+    }
+}
