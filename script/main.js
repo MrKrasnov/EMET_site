@@ -22,3 +22,17 @@ for (let anchor of anchors) {
         })
     })
 }
+
+// button events
+
+const send_an_order = document.querySelectorAll('.order');
+const msg = document.querySelector('.message');
+
+msg.addEventListener("click", e => {
+    e.preventDefault();
+    alert('ваше повідомлення відправлено');
+});
+
+for (let item of send_an_order) {
+    item.addEventListener("click", e => alert('ваш заказ відправлен'));
+}
