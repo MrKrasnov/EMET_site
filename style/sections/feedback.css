@@ -99,3 +99,11 @@
         width: 80%;
     }
 }
+
+/* mobile small */
+
+@media(max-width: 320px) {
+    .feedback_handler h3 {
+        font-size: 27px;
+    }
+}

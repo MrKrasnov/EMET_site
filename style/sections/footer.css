@@ -2,3 +2,12 @@
     background: var(--bgColor);
     padding: 83px 0;
 }
+
+/* mobile small */
+
+@media(max-width: 320px) {
+    .footer {
+        background: var(--bgColor);
+        padding: 15px 0;
+    }
+}

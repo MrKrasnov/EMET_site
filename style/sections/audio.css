@@ -26,3 +26,11 @@
 .audio audio::-webkit-media-controls-enclosure {
     background-color: grey;
 }
+
+/* mobile small */
+
+@media(max-width: 320px) {
+    .audio h2 {
+        font-size: 27px;
+    }
+}

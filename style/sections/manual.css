@@ -50,3 +50,15 @@
         display: none;
     }
 }
+
+/* mobile small */
+
+@media(max-width: 320px) {
+    .manual {
+        padding: 25px 0;
+    }
+
+    .manual h1 {
+        font-size: 27px;
+    }
+}

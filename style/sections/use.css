@@ -134,3 +134,11 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* mobile small */
+
+@media(max-width: 320px) {
+    .use h1 {
+        font-size: 27px;
+    }
+}
