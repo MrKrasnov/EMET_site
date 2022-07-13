@@ -54,3 +54,11 @@
     margin-left: 50%;
     color: #E25241;
 }
+
+/* mobile large */
+
+@media(max-width: 700px) {
+    .main-firstBg {
+        margin-left: 5%;
+    }
+}

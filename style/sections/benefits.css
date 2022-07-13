@@ -93,3 +93,12 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/* mobile large */
+
+@media(max-width: 700px) {
+    .benefits .benefits_list {
+        justify-items: center;
+        grid-template-columns: 1fr;
+    }
+}

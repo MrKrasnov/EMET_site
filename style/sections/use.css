@@ -125,3 +125,12 @@
     width: 6.39px;
     height: 5.76px;
 }
+
+/* mobile large */
+
+@media(max-width: 700px) {
+    .use-skills {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}

@@ -76,3 +76,11 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
+/* mobile large */
+
+@media(max-width: 700px) {
+    .software .software_list {
+        grid-template-columns: 1fr;
+    }
+}

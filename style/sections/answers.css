@@ -45,3 +45,16 @@
     max-width: 80%;
     margin-left: 41px;
 }
+
+/* mobile large */
+
+@media(max-width: 700px) {
+    .answers_cards {
+        justify-items: center;
+        grid-template-columns: 1fr;
+    }
+
+    .answers_cards_card {
+        width: 100%;
+    }
+}
