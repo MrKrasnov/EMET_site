@@ -47,3 +47,47 @@
     display: flex;
     align-items: center;
 }
+
+.header-content-menu-burger {
+    display: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header-content-menu-burger img {
+    height: 30px;
+}
+
+.header-content-menu-mobile {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: -60px;
+    /* right: 35px; */
+}
+
+.header-content-menu-mobile a {
+    font-family: var(--boldFont);
+    color: var(--navColor);
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 40px;
+}
+
+.header-content-menu-mobile a:hover {
+    color: var(--lightStaticColor);
+}
+
+/* tablet version */
+
+@media(max-width: 1000px) {
+
+    .header-content-menu-nav,
+    .header-content-menu-order {
+        display: none;
+    }
+
+    .header-content-menu-burger {
+        display: block;
+    }
+}

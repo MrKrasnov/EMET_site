@@ -36,3 +36,20 @@ msg.addEventListener("click", e => {
 for (let item of send_an_order) {
     item.addEventListener("click", e => alert('ваш заказ відправлен'));
 }
+
+// burger menu 
+const mobile_header = document.querySelector('.header-content-menu-mobile');
+const burger_icon = document.querySelector('.header-content-menu-burger');
+let burger_toogle = true;
+
+burger_icon.addEventListener("click", e => {
+    if (burger_toogle) {
+        mobile_header.style.display = "block";
+        mobile_header.style.right = "35px";
+        burger_toogle = false;
+    } else {
+        mobile_header.style.display = "none";
+        mobile_header.style.right = "-60px";
+        burger_toogle = true;
+    }
+});
