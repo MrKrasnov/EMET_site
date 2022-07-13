@@ -67,3 +67,48 @@
 .lightBlue {
     color: var(--cardTitleColor);
 }
+
+.card div::before {
+    border: 1px solid var(--cardTitleColor);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: var(--boldFont);
+    font-size: 24px;
+    line-height: 29px;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+.card div::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    top: 20px;
+    left: 20px;
+    border: 1px solid var(--cardTitleColor);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    font-family: var(--regularFont);
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: lowercase;
+}
+
+.card div:hover::after {
+    transition: 0.5s all;
+    z-index: 5;
+}
