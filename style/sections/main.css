@@ -62,3 +62,11 @@
         margin-left: 5%;
     }
 }
+
+/* mobile medium */
+
+@media(max-width: 500px) {
+    .main-secondtBg {
+        margin: 64px 0px 19px 65%;
+    }
+}

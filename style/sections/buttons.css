@@ -19,3 +19,21 @@
 .buttons .btn:hover {
     background: var(--activeColor);
 }
+
+/* mobile medium */
+
+@media(max-width: 500px) {
+    .buttons_handler {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .buttons .btn:first-child {
+        margin: 0;
+    }
+
+    .buttons .btn {
+        margin: 20px 0;
+    }
+}

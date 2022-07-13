@@ -86,3 +86,16 @@
         font-size: 55px;
     }
 }
+
+/* mobile medium */
+
+@media(max-width: 500px) {
+    .feedback_handler {
+        width: 90%;
+    }
+
+    .feedback_handler form input,
+    .feedback_handler form textarea {
+        width: 80%;
+    }
+}
